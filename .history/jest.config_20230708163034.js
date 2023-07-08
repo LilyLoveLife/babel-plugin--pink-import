@@ -1,3 +1,0 @@
-"transform": {
-  "^.+\\.jsx?$": "babel-jest"
-},

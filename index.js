@@ -22,7 +22,7 @@ export default function({types: t }) {
                 for (const spec of specs) {
                     const named = MODULE + '/' + spec.imported.name
                     const local = spec.local
-                    imports.push(t.importDeclaration([t.importDefaultSpecifier(local)], t.stringLiteral(`${named}/index`)))
+                    imports.push(t.importDeclaration([t.importDefaultSpecifier(local)], t.stringLiteral(`${named}/index.cjs`)))
                     imports.push(t.importDeclaration([], t.stringLiteral(`${named}/index.css`)))
                 }
                 path.replaceWithMultiple(imports)

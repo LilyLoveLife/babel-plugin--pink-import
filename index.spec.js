@@ -12,6 +12,6 @@ it('import语句转换正确', () => {
         import {Button} from '${MODULE}'
     `
     const {code} = babel.transform(input, {plugins: [pinkPlugin]})
-    assert.equal(code, `import Button from '${MODULE}/Button/index';
+    assert.equal(code, `import Button from '${MODULE}/Button/index.cjs';
 import '${MODULE}/Button/index.css';`);
 })
