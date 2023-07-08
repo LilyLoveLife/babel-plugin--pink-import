@@ -1,0 +1,30 @@
+{
+  "name": "babel-plugin-pink-import",
+  "version": "1.0.0",
+  "description": "Trans import to certain path",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilyLoveLife/babel-plugin-pink-import.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-pugin",
+    "import"
+  ],
+  "author": "Lily",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilyLoveLife/babel-plugin-pink-import/issues"
+  },
+  "homepage": "https://github.com/LilyLoveLife/babel-plugin-pink-import#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.7",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^29.6.1",
+    "jest": "^29.6.1"
+  }
+}
