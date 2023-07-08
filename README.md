@@ -10,6 +10,28 @@ Transform
 To 
 
 ```
-    import Button from 'pink-flower-ui/es/index.cjs'
-    import 'pink-flower-ui/es/index.css'
+    import Button from 'pink-flower-ui/dist/lib/index.cjs'
+    import 'pink-flower-ui/dist/lib/index.css'
 ```
+
+
+Config:
+
+```
+    {
+        plugins: [
+            ['pink-import', {
+                'pink-flower-ui': {
+                        jsDir: '/dist/lib',
+                        jsName: 'index.cjs',
+                        jsDir: '/dist/lib',
+                        cssName: 'index.css'
+                    }
+                }
+            ]
+        ]
+    }
+```
+
+
+

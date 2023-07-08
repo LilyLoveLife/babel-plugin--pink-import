@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-pink-import",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Trans import to certain path",
   "main": "index.js",
   "scripts": {

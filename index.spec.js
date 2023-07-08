@@ -11,7 +11,6 @@ const cssName = 'style.css'
 it('import语句转换正确', () => {
     var input = `import {Button} from '${MODULE}'`
     const {code} = babel.transform(input, {plugins: [[pinkPlugin, {[MODULE]: {
-        moduleName: MODULE,
         jsDir,
         cssName
     }}]]})
